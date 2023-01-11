@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar example</title>
+    <style>
+        nav {
+            background-color: rgb(255, 209, 123);
+            color: rgb(173, 124, 0);
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 10vw;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-transform: capitalize;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            padding-inline-start: 0;
+            align-items: center;
+        }
+
+        nav li {
+            cursor: pointer;
+            background-color: yellow;
+            padding: 5px;
+            border-radius: 20px;
+            display: flex;
+
+            height: 20%;
+        }
+
+        nav li.shop {
+            display: flex;
+            align-self: stretch;
+            font-size: 2em;
+            height: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>our honey</li>
+            <li>trace honey</li>
+            <li class="shop">shop</li>
+            <li>facilities</li>
+            <li>contacts</li>
+        </ul>
+    </nav>
+</body>
+
+</html>
