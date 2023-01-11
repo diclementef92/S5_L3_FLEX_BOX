@@ -60,12 +60,15 @@ nav li.shop img {
   display: flex;
   flex-direction: column;
   flex: 1 1 250px;
+  max-width: 350px;
   border-radius: 40px;
   margin: 20px;
-  width: 20vw;
 }
 
 .product-card img {
+  /* background-image: url("../imgs/honey.jpg"); */
+  height: 80%;
+  /* object-fit: contain; */
   border-top-right-radius: 40px;
   border-top-left-radius: 40px;
   /* width: 300px; */
@@ -103,10 +106,7 @@ article {
 
 @media screen and (min-width: 768px) {
   article {
-    background-color: rgb(255, 247, 226);
-    font-family: "Poppins", sans-serif;
-    padding: 20px;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
   }
 
