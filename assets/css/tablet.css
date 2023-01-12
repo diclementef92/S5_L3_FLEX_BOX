@@ -24,11 +24,15 @@ nav ul {
   list-style: none;
   padding-inline-start: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   nav ul {
-    flex-direction: column;
-    /* TODO  */
-    width: 100%;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  nav li.shop {
+    width: 90%;
+    order: -1;
+  }
 }
 nav li {
   cursor: pointer;
